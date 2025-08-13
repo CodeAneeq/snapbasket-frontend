@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+.home_main_banner{
+    background: url('./assets/main_banner_bg.png');
+    background-size: cover;
+}
+.inline-rating span,
+.inline-rating svg {
+  display: inline !important;
+}
+
+.home_second_banner{
+     background: url('./assets/bottom_banner_image.png');
+    background-size: cover;
+}
+
+@media (max-width: 1170px) {
+  .home_second_banner {
+    background-image: url('./assets/bottom_banner_image_sm.png');
+    background-size: cover;
+    /* justify-content: center; */
+    align-items: center;
+    /* height: 800px; */
+  }
+}
+
+@media (max-width: 470px) {
+  .home_second_banner{
+    height: 900px;
+    /* background-size: contain; */
+  }
+}
