@@ -14,6 +14,7 @@ function GoogleLoginButton() {
       onSuccess={async (credentialResponse) => {
         const idToken = credentialResponse.credential; // JWT ID token
         let res = await axios.post(`${baseURL}/auth/api/google`, { token: idToken });
+        console.log(res);
         if (res.status == 200) {                        
             dispatch(addUser(res.data));
             navigate('/')
