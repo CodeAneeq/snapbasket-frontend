@@ -1,3 +1,3 @@
-let baseURL = "https://learncodeskills-server-i161.vercel.app"
+let baseURL = "https://snapbasket-backend.vercel.app"
 
 export default baseURL
