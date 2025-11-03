@@ -1,3 +1,3 @@
-let baseURL = "http://localhost:3000"
+let baseURL = "https://learncodeskills-server-i161.vercel.app"
 
 export default baseURL
